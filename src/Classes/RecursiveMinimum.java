@@ -30,6 +30,6 @@ public class RecursiveMinimum {
         // if check -> O(1) TC
         return arr[index] < small ? arr[index] : small;
 
-        // overall time complexity is O(n)
+        // overall time complexity is O(n).
     }
 }

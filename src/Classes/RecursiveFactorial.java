@@ -20,9 +20,9 @@ public class RecursiveFactorial {
         if (index == n){
             return index;
         }
-        // recursiveness happens 'n' times before it gets stopped by the previous if check
+        // recursiveness happens 'n' times before it gets stopped by the previous if check.
         return factorial(index + 1, n) * index;
 
-        // overall time complexity is O(n)
+        // overall time complexity is O(n).
     }
 }

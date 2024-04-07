@@ -20,6 +20,6 @@ public class RecursiveFibonacci {
         // recursiveness happens 'n' times before it gets stopped by the previous if check
         return (index == n) ? f0 + f1 : fibonacci(index + 1, f1, f0 + f1, n);
 
-        // overall time complexity is O(n)
+        // overall time complexity is O(n).
     }
 }
