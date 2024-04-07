@@ -10,11 +10,11 @@ public class Main {
                  2: Get Average From Array
                  3: Check if Number is a Prime
                  4: Get Factorial
-                 5: Find n-th Fibonacci
-                 6: Get Power of a number
-                 7: Reverse Input Array
-                 8: Check if String Contains Digits Only
-                 9: Get Binomial Coefficient
+                 5: Find n-th Fibonacci.
+                 6: Get Power of a number.
+                 7: Reverse Input Array.
+                 8: Check if String Contains Digits Only.
+                 9: Get Binomial Coefficient.
                  10: GCD Calculator""");
         Scanner sc = new Scanner(System.in);
         System.out.println("\n" + appSwitch(sc.nextInt()) + " ns");
