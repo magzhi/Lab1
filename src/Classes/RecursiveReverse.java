@@ -28,6 +28,6 @@ public class RecursiveReverse {
         System.out.print(temp + " ");
 
         // one run of the method is O(1) TC, but it is run 'n' times
-        // due to recursiveness, thus overall TC is O(n)
+        // due to recursiveness, thus overall TC is O(n).
     }
 }

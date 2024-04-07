@@ -25,6 +25,6 @@ public class RecursivePower {
         // recursiveness happens 'n' times before it gets stopped by the previous if check
         return power(index + 1, a, n) * a;
 
-        // overall time complexity is O(n)
+        // overall time complexity is O(n).
     }
 }
