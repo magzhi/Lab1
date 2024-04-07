@@ -24,6 +24,6 @@ public class RecursiveEuclideanAlgorithm {
         // until 'b' reaches 0
         return b == 0 ? a : gcd(b, a % b);
 
-        // overall time complexity is O(log(n))
+        // overall time complexity is O(log(n)).
     }
 }

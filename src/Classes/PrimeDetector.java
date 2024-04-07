@@ -25,6 +25,6 @@ public class PrimeDetector {
         }
         return true;
 
-        // overall method runs at O(square root of 'n') time complexity
+        // overall method runs at O(square root of 'n') time complexity.
     }
 }

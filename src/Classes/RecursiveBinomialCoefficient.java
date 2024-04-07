@@ -22,6 +22,6 @@ public class RecursiveBinomialCoefficient {
         // for each return in the worst case it doubles the recursiveness
         return (k == 0 || n == k) ? 1 : binomial(n-1,k-1) + binomial(n-1,k);
 
-        // overall time complexity is 2^O(n), as it is exponential
+        // overall time complexity is 2^O(n), as it is exponential.
     }
 }

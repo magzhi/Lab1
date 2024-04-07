@@ -27,6 +27,6 @@ public class RecursiveDigitCheck {
         // recursiveness happens 'n' times all the time
         return isDigitsOnly(index + 1, s);
 
-        // overall time complexity is O(n)
+        // overall time complexity is O(n).
     }
 }

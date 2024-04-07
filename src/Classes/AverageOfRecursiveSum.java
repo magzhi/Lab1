@@ -23,6 +23,6 @@ public class AverageOfRecursiveSum {
         // recursiveness happens 'n' times all the time
         return (index == arr.length - 1) ? arr[index] : sum(index + 1, arr) + arr[index];
 
-        // overall method runs at O(square root of 'n') time complexity
+        // overall method runs at O(square root of 'n') time complexity.
     }
 }
